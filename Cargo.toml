@@ -1,0 +1,9 @@
+[workspace]
+resolver= "2"
+members = [
+    "day-01",
+]
+
+[workspace.dependencies]
+env_logger = "0.10"
+log = "0.4"
