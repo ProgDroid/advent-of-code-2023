@@ -47,6 +47,7 @@ impl CubeSet {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Game {
     id: u32,
     cube_sets: Vec<CubeSet>,
