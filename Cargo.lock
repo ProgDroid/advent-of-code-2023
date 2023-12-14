@@ -154,6 +154,31 @@ dependencies = [
 ]
 
 [[package]]
+name = "day-12"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+ "rayon",
+]
+
+[[package]]
+name = "day-13"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+]
+
+[[package]]
+name = "day-14"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+]
+
+[[package]]
 name = "either"
 version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
