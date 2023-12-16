@@ -1,0 +1,15 @@
+[package]
+name = "day-16"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = {workspace = true}
+log = {workspace = true}
+rayon = "1.7"
+
+[features]
+default = []
+debug = []
